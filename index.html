@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="page__wrapper">
+      <header>
+        <div class="navbar">
+          <div class="logo">
+            <img src="assets/dark.svg" />
+          </div>
+          <nav>
+            <ul>
+              <li class="nav--elem active">
+                <a href="#ico" name="ico">ICO</a>
+              </li>
+              <li class="nav--elem"><a href="#team" name="team">Team</a></li>
+              <li class="nav--elem">
+                <a href="#contact" name="contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__KV">
+          <div class="header__KV__copy">
+            <h2>
+              The first fully-automatic social crypto trading platform with real
+              crypto currency
+            </h2>
+            <p class="header__KV__subcopy">
+              Subscribe and get the lastes information
+            </p>
+            <form action="/action_page.php">
+              <input
+                type="text"
+                id="subscribe"
+                name="subscribe"
+                placeholder="Enter your email"
+              />
+              <input type="submit" value="Subscribe" class="submit" />
+            </form>
+          </div>
+          <div class="header__KV--video">
+            <video width="100%" height="100%" poster="assets/VIDEO.png">
+              <source src="" type="video/mp4" />
+            </video>
+          </div>
+          <div class="social__links">
+            <a href="https://www.twitter.com"
+              ><img src="assets/Twitter@1x.png"
+            /></a>
+            <a href="https://www.facebook.com"
+              ><img src="assets/Facebook@1x.png"
+            /></a>
+          </div>
+          <img class="header__KV--arrow" src="assets/DownArrow.svg" />
+        </div>
+      </header>
+
+      <section id="team">
+        <div class="team__header">
+          <h4>Team</h4>
+        </div>
+        <div class="splide">
+          <div class="team__members splide__track">
+            <div class="splide__list">
+              <div class="team__member__wrapper splide__slide">
+                <div
+                  class="team__member"
+                  onclick="document.getElementById('first--member').style.display='block'"
+                >
+                  <img class="team__member--img" src="assets/edgar.png" />
+                  <h4 class="team__member--name">Edgar Morrison</h4>
+                  <span class="team__member--function">CEO</span>
+                  <p class="team__member--bio">
+                    Having used discount toner cartridges for twenty years,
+                    there have been a lot of changes in the toner...
+                  </p>
+                </div>
+                <div class="team__member--social">
+                  <a href="https://www.facebook.com">
+                    <div class="team__member--socialFacebook">
+                      <img src="assets/facebookIcon.png" /></div
+                  ></a>
+                  <a href="https://www.linkedin.com">
+                    <div class="team__member--socialLinkedin">
+                      <img src="assets/linkedin-logo.png" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="team__member__wrapper splide__slide">
+                <div
+                  class="team__member"
+                  onclick="document.getElementById('second--member').style.display='block'"
+                >
+                  <img class="team__member--img" src="assets/mae.png" />
+                  <h4 class="team__member--name">Mae Martin</h4>
+                  <span class="team__member--function">CTO</span>
+                  <p class="team__member--bio">
+                    Having used discount toner cartridges for twenty years,
+                    there have been a lot of changes in the toner...
+                  </p>
+                </div>
+                <div class="team__member--social">
+                  <a href="https://www.facebook.com">
+                    <div class="team__member--socialFacebook">
+                      <img src="assets/facebookIcon.png" /></div
+                  ></a>
+                  <a href="https://www.linkedin.com">
+                    <div class="team__member--socialLinkedin">
+                      <img src="assets/linkedin-logo.png" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="team__member__wrapper splide__slide">
+                <div
+                  class="team__member"
+                  onclick="document.getElementById('third--member').style.display='block'"
+                >
+                  <img class="team__member--img" src="assets/david.png" />
+                  <h4 class="team__member--name">David Banks</h4>
+                  <span class="team__member--function">CFO</span>
+                  <p class="team__member--bio">
+                    Having used discount toner cartridges for twenty years,
+                    there have been a lot of changes in the toner...
+                  </p>
+                </div>
+                <div class="team__member--social">
+                  <a href="https://www.facebook.com">
+                    <div class="team__member--socialFacebook">
+                      <img src="assets/facebookIcon.png" /></div
+                  ></a>
+                  <a href="https://www.linkedin.com">
+                    <div class="team__member--socialLinkedin">
+                      <img src="assets/linkedin-logo.png" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="team__member__wrapper splide__slide">
+                <div
+                  class="team__member"
+                  onclick="document.getElementById('fourth--member').style.display='block'"
+                >
+                  <img class="team__member--img" src="assets/fredenck.png" />
+                  <h4 class="team__member--name">Frederick Parsons</h4>
+                  <span class="team__member--function">COO</span>
+                  <p class="team__member--bio">
+                    Having used discount toner cartridges for twenty years,
+                    there have been a lot of changes in the toner...
+                  </p>
+                </div>
+                <div class="team__member--social">
+                  <a href="https://www.facebook.com">
+                    <div class="team__member--socialFacebook">
+                      <img src="assets/facebookIcon.png" /></div
+                  ></a>
+                  <a href="https://www.linkedin.com">
+                    <div class="team__member--socialLinkedin">
+                      <img src="assets/linkedin-logo.png" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact__copy">
+          <h4>Contact us</h4>
+          <p>
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+        </div>
+        <div class="contact--form">
+          <form action="/action_page2.php">
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Your Name"
+              class="contact--form--fname"
+            />
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              class="contact--form--email"
+            />
+            <input
+              type="checkbox"
+              id="checkbox"
+              name="checkbox"
+              value="checkbox"
+              class="checkbox"
+            />
+            <label for="checkbox">Checkbox</label>
+            <input type="submit" value="Send" class="send" />
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer__wrapper">
+          <div class="footer__wrapper--logo">
+            <img src="assets/dark.svg" />
+          </div>
+          <div class="footer__wrapper--contact">
+            <p class="footer__wrrapper--contact--p">Contact us:</p>
+            <p
+              class="footer__wrapper--contact--email"
+              mailto="have@nicecoding.io"
+            >
+              have@nicecoding.io
+            </p>
+          </div>
+          <button class="footer__wrapper--contact--button">
+            Read Whitepaper
+          </button>
+        </div>
+        <div class="footer--links">
+          <p>&copy; Copywriters 2020</p>
+          <div class="footer--links--vertical"></div>
+          <a href="#">FAQ</a>
+          <div class="footer--links--vertical"></div>
+          <a href="#">Terms of Use</a>
+          <div class="footer--links--vertical"></div>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </footer>
+
+      <div id="first--member" class="modal">
+        <div class="modal--close">
+          <img
+            src="assets/Xcircle.svg"
+            onclick="document.getElementById('first--member').style.display='none'"
+          />
+        </div>
+
+        <div class="modal__name">
+          Edgar Morrison
+        </div>
+        <div class="modal__function">
+          CEO
+        </div>
+        <div class="modal__bio">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
+          ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+          duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+          amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+          amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet.
+        </div>
+      </div>
+
+      <div id="second--member" class="modal">
+        <div class="modal--close">
+          <img
+            src="assets/Xcircle.svg"
+            onclick="document.getElementById('second--member').style.display='none'"
+          />
+        </div>
+
+        <div class="modal__name">
+          Mae Martin
+        </div>
+        <div class="modal__function">
+          CTO
+        </div>
+        <div class="modal__bio">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
+          ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+          duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+          amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+          amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet.
+        </div>
+      </div>
+
+      <div id="third--member" class="modal">
+        <div class="modal--close">
+          <img
+            src="assets/Xcircle.svg"
+            onclick="document.getElementById('third--member').style.display='none'"
+          />
+        </div>
+
+        <div class="modal__name">
+          David Banks
+        </div>
+        <div class="modal__function">
+          CFO
+        </div>
+        <div class="modal__bio">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
+          ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+          duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+          amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+          amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet.
+        </div>
+      </div>
+
+      <div id="fourth--member" class="modal">
+        <div class="modal--close">
+          <img
+            src="assets/Xcircle.svg"
+            onclick="document.getElementById('fourth--member').style.display='none'"
+          />
+        </div>
+
+        <div class="modal__name">
+          Frederick Parsons
+        </div>
+        <div class="modal__function">
+          COO
+        </div>
+        <div class="modal__bio">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
+          ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+          duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+          amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+          amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+          deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt
+          nostrud amet.
+        </div>
+      </div>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var splide = new Splide(".splide", {
+          destroy: true,
+          breakpoints: {
+            1200: {
+              type: "slide",
+              arrows: false,
+              perPage: 3.75,
+              focus: "center"
+            },
+            768: {
+              perPage: 2.75
+            }
+          }
+        }).mount();
+      });
+    </script>
+  </body>
+</html>
